@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GadgetCrunch Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+	<link href="css/heroic-features.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<script>
+	function validateForm() 
+	{
+		var x = document.forms["loginForm"]["txtUsernameLogin"].value;
+		if (x == null || x == "") 
+		{
+				alert("Name must be filled out");
+				return false;
+		}
+	}
+
+	</script>
+<body style="background: url('images/bg.jpg'); background-repeat: repeat-xy;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">GadgetCrunch</a>
+            </div>
+           
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+		
+			
+    <div class = "container">
+	
+		<form action="login.do" method="POST" name="loginForm" onSubmit="return validateForm()">
+		
+				<!--<header class="jumbotron hero-spacer">-->
+				<div class="container">
+			
+					<header class="jumbotron hero-spacer" style="background:url('images/bgLight.jpg'); background-position: 12% 50%;">
+				
+							<div class="panel panel-primary" align="center">
+								<div class="panel-heading" style="font-family:Arial Rounded MT Bold; text-shadow:2px 2px 4px grey;">Login Information</div>
+									<div class="panel-body container">
+										<div class="form-group" align="center">
+														<div class ="container">
+															
+															<div class="col-sm-10" style="padding:10px; margin-left:250px;">
+																	<input type="text" hint="username" name="txtUsernameLogin" class="form-control" required autofocus/>
+															
+															</div>
+															</br>
+															<div class="col-sm-10" align="center" style="padding:10px; margin-left:250px;">
+																	<input type="password" hint="password" name="txtPasswordLogin" class="form-control" required/>
+									
+															</div>
+														</div>
+										</div>
+									</div>
+								<div class="btn-group btn-group-justified" role="group" aria-label="Action" style="padding: 5px;">
+							
+									<div class="btn-group" role="group">
+										<input class="btn btn-primary" type="submit" name="select" value="Login"/>
+									</div>
+								</div>
+							</div>
+					</header>
+				</div>
+		</form>
+	</div>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+				<h4>Business Location</h4>
+					<address>
+						369 Block L</br>
+						Soshanguve</br>
+						Pretoria</br>
+						South Africa
+					</address>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="col-md-5"> &#169 Copyright Lucas Nkoana 2015</div>
+				<div class="col-md-7">
+					<ul class="footer-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Cellphones</a></li>
+						<li><a href="#">Tablets/Laptops</a></li>
+						<li><a href="#">Contact</a></li>
+						
+					</ul>
+				
+				</div>
+				
+			
+			</div>
+		</div>
+	</footer>
+	<!--===================================================================-->
+	
+	
+	
+	<!--===================================================================-->
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--================== Bootstrap Core JavaScript ======================-->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jssor slider scripts-->
+    <!-- use jssor.js + jssor.slider.js instead for development -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+	<!--===================================================================-->
+	
+	
+	<!--=======================AngularJS Scripts==========================-->
+	<script src="js/angular.js"></script>
+	<script src="js/angular-messages.js"></script>
+	<script src="js/script.js"></script>
+	
+	
+	
+	<!--==================================================================-->
+</body>
+
+</html>

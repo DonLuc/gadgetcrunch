@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+			
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#"><img src="images/logo2.png" alt="Logo">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+					<ul>
+						<li>Wearable Devices</li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#">Phones</a>
+					<ul>
+						<li>Android</li>
+						<li>Apple</li>
+						<li>BlackBerry</li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#">Laptops</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+				</li>
+                <li>
+                    <a href="#contact" data-toggle="modal">Contact Us</a>
+                </li>
+				<li>
+					<a href="#login" data-toggle="modal">Login</a>
+				</li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <body>
+			<div class="container-fluid">
+                <div class="row">
+				
+                    <div class="col-lg-12">
+                        
+						<h1 class="jumbotron" align ="center">Home</h1>
+                        
+						<a href="#menu-toggle" class="btn btn-primary position_toggle_btn" id="menu-toggle">Toggle Menu</a>
+						
+						
+                    </div>
+                </div>
+            </div>
+		</div>
+			
+			<!--Modal Contact-->
+			<div class="modal fade style-modal" id="contact" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-context">
+						<div class="modal-header">
+							<h4 align="center" style="text:#fff;">Contact GadgetCrunch</h4>
+						</div>
+						<div class="modal-body">
+							<label style="text:#fff;">Name</label></br><input type="text" size="30px" placeHolder="Full Name" name="txtNameContact"></br>
+							<label style="text:#fff;">Email</label></br><input type="text" size="30px" placeHolder="Email" name="txtEmailContact"></br>
+							<label style="text:#fff;">Message</label></br><textarea rows="10" cols="30" name="txtMessage"></textarea>
+							
+						
+						</div>
+						<div class="modal-footer">
+							<input type="submit" name="select" class="btn btn-primary" data-dismiss="modal" value="Submit">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<form>
+			<!--Modal Login-->
+			<div class="modal fade style-modal" id="login" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-context">
+						<div class="modal-header">
+							<h4 align="center" style="text:#fff;">Login</h4>
+						</div>
+						<div class="modal-body">
+							<form method="post" action="index.html" class="login">
+								
+								<input type="text" placeHolder="Username" name="txtUsername">
+								
+								<input type="password" placeHolder="Password" name="txtPassword">
+							</form>
+						
+						</div>
+						<div class="modal-footer">
+							<input type="submit" name="select" class="btn btn-primary" data-dismiss="modal" value="Login">
+							<input type="submit" name="select" class="btn btn-default" data-dismiss="modal" value="Clear">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			</form>
+				
+					<!--
+					<form method="post" action="index.html" class="login">
+			<div class="login-wrapper">
+			<p>
+			  <label for="login">Email:</label>
+			  <input type="text" name="login" id="login" value="name@example.com">
+			</p>
+
+			<p>
+			  <label for="password">Password:</label>
+			  <input type="password" name="password" id="password" value="4815162342">
+			</p>
+
+			<p class="login-submit">
+			  <button type="submit" class="login-button" name="select">Login</button>
+			</p>
+
+			<p class="forgot-password"><a href="index.html">Forgot your password?</a></p>
+			</div>
+			</form>
+					
+					
+					-->
+					
+				<!--	
+				
+				<footer class="site-footer">
+					<div class="container">
+						
+						<div class="bottom-footer">
+							<div class="col-md-5">Copyright Lucas Nkoana 2015.</div>
+							<div class="col-md-5 ">
+								<ul class="footer-nav">
+									<li><a href="#">Home</li>
+									<li><a href="#">Gadgets</li>
+									<li><a href="#">Contact Us</li>
+								</ul>
+							
+							</div>
+						</div>
+				</div>
+			</footer>
+			-->
+			
+			</body>
+			
+			<!-- /#page-content-wrapper -->
+
+    
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

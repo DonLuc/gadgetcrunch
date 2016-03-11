@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html ng-app="validation">
+
+  <head>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="angular.js"></script>
+    <script src="angular-messages.js"></script>
+   <link href="css/form-align.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+	<script src="../js/Validator.js"></script>
+  </head>
+  
+
+  <body class="container" ng-controller="RegistrationController as registration" style="background:url('../images/bgLight.jpg');">
+	 <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container" align="center">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">GadgetCrunch</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+					<li>
+                        <a href="../index.html">Home</a>
+                    </li>
+					<li>
+                        <a href="../login.html">Cellphones</a>
+                    </li>
+                    <li>
+                        <a href="../login.html">Laptops/Tablets</a>
+                    </li>
+                    <li>
+                        <a href="../login.html">Wearables</a>
+                    </li>
+					<li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class = "container">
+		<!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+            <h1 align="center" style="font-family:Arial Rounded MT Bold; text-shadow: 2px 2px 4px">Create An Account</h1>
+            
+			
+        </header>
+	</div>
+	
+	<form name="registrationForm" novalidate ng-submit="registration.submit(registrationForm.$valid)"
+              method="POST"
+              action="../client.do"
+              >
+		<div class="row">
+			<div class="col-md-5">
+                            <!--
+				<h3 align="center" style="text-shadow: 1px 1px 2px;">Personal Information<h3>
+				-->	
+                                        <div class="panel panel-default" >
+                                            <div class="panel-heading">Basic Information</div>
+                                                <div class="panel-body">
+                                                    <h3 align="center">{{ registration.message }}</h3> 
+                                                    <div class="form-group">
+                                                            <label class="col-sm-2 control-label ">Name</label>
+                                                            <div class="col-sm-10">
+                                                                    <input type="text" name="name" class="form-control" ng-model="registration.user.name" required autofocus/>
+																	<p style="padding:2px; text-align: right;" id="hidName"><mark></mark></p>
+                                                            </div>
+                                                    </div>
+                                                    </br></br></br>
+                                                    <div class="form-group">
+                                                            <label class="col-sm-2 control-label" >Surname</label>
+                                                            <div class="col-sm-10">
+                                                                    <input type="text" name="surname" class="form-control" ng-model="registration.user.surname" required />
+																	<p style="padding:2px; text-align: right;" id="hidSurname"><mark></mark></p>
+															</div>
+                                                    </div>
+                                                    </br></br>
+                                                    <div class="form-group">
+                                                            <label class="col-sm-2 control-label" >ID Number</label>
+                                                            <div class="col-sm-10">
+                                                                    <input type="text" name="id_number" class="form-control" ng-model="registration.user.id" required />
+																	<p style="padding:2px; text-align: right;" id="hidID"><mark></mark></p>
+															</div>
+                                                    </div>
+                                                    </br></br>
+                                                    <div class="form-group">
+                                                            <label class="col-sm-2 control-label" >Gender</label>
+                                                            <div class="col-sm-10">
+                                                                    <select class="input-sm" name="gender">
+                                                                            <option></option>
+                                                                            <option>Male</option>
+                                                                            <option>Female</option>
+																	</select>
+																	<p style="padding:2px; text-align: right;" id="hidGender"><mark></mark></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                        <!--
+					</br>
+					<h3 align="center" style="text-shadow:1px 1px 2px;">Contact</h3>
+					</br>
+                                        -->
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Contact Information</div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+
+                                                            <label class="col-sm-2 control-label">Email</label>
+                                                                    <div class="col-sm-10">
+                                                                            <input type="text" name="email" class="form-control" ng-model="registration.user.email" required>
+                                                                            <span ng-show="registrationForm.email.$error.email">Not an email</span>
+                                                                    </div>
+                                                    </div>
+                                                    </br></br>
+                                                    <div class="form-group">
+                                                            <label class="col-sm-2 control-label" >Contact Number</label>
+                                                            <div class="col-sm-10">
+                                                                    <input type="text" name="contact" class="form-control" ng-model="registration.user.c" required size="10"/>
+																	<p style="padding:2px; text-align: right;" id="hidContact"><mark></mark></p>
+															</div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                
+					
+			
+										
+                            <!--
+				<h3 align="center" style="text-shadow: 1px 1px 2px;">Login Information</h3>
+				-->
+                                <div class="panel panel-default">
+                                            <div class="panel-heading">Login Information</div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                                    </br>
+                                                                    <label class="col-sm-2 control-label ">Username</label>
+                                                                    <div class="col-sm-10">
+                                                                            <input type="text" name="username" placeholder="Username" class="form-control" ng-model="registration.user.username" required />
+																			<p style="padding:2px; text-align: right;" id="hidUsername"><mark></mark></p>
+                                                                    </div>
+                                                                    <label class="col-sm-2 control-label ">Password</label>
+                                                                    <div class="col-sm-10">
+                                                                            <input type="password" placeHolder="password" name="myPassword" class="form-control" ng-model="registration.user.myPassword" required/>
+																			<p style="padding:2px; text-align: right;" id="hidPassword"><mark></mark></p>
+                                                                    </div>
+																	
+													</div>
+												</div>
+								</div>
+			</div>
+			</br></br>
+                        
+			
+			
+		</div>
+		<div class="row">
+			<div class="btn-group btn-group-justified" role="group" aria-label="Action">
+					
+					<div class="btn-group" role="group">
+						<input class="btn btn-primary"  type="submit" onClick="validateID()" name="select" value="Add Client"/>
+					</div>
+			</div>
+		</div>
+	</form>
+
+	
+  </body>
+
+</html>

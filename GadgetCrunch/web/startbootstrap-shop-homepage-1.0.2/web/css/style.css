@@ -1,0 +1,81 @@
+#thumstyle img
+{
+	box-shadow: 2px 2px 4px;
+}
+label
+{
+	text-align: right;
+	width: 5em;
+}
+input
+{
+	float: right;
+	margin-right: 200px;
+	padding: 0pt;
+	margin-top : 2pt;*/
+}
+
+.ng-invalid {
+    border-color: red;
+    outline-color: red;
+}
+
+.ng-valid {
+    border-color: green;
+    outline-color: green;
+}
+
+.messages {
+  font-size: smaller;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: red;
+}
+.site-footer
+{
+	background-color: #222;
+	color: #fff;
+	font-family: cambria;
+	box-shadow: 2px 2px 4px 4px grey;
+	margin-top: 30px;
+	padding-top: 30px;
+	
+}
+#imgShadow
+{
+	box-shadow: 2px 2px 4px 4px grey;
+}
+.bottom-footer
+{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #b2b2b2
+}
+
+.footer-nav
+{
+	text-align: right;
+	list-style:none;
+}
+.footer-nav li
+{
+	display:inline;
+	padding: 0px 10px;
+}
+.footer li:not(:first-child):before
+{
+	content: '|';
+	padding: 0px 10px;
+}
+.footer a
+{
+	color: #b2b2b2
+}
+
+.footer a:hover
+{
+	color: #fff;
+	text-decoration:underline;
+}
+

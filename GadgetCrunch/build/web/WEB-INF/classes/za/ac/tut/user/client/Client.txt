@@ -1,0 +1,21 @@
+package za.ac.tut.user.client;
+
+public class Client extends User
+{
+	private Banking banking;
+	public Client(String name, String surname, long id, String gender)
+	{
+		super(name,surname, id, gender);
+	}
+	
+	public void setBanking(Banking bank)
+	{
+		this.banking = bank;
+	}
+	
+	public Banking getBanking()
+	{
+		return this.banking;
+	}
+	
+}

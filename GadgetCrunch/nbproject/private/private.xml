@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/login_in_as_client.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/admin_home.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/gadget/gadgetextend/GadgetExtend.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/js/Validator.js</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/dao/connectdao/ConnectDAO.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/webpages/web/css/style.css</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/dao/logindao/ClientLoginDAO.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/sign_up/sign_up.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/AdminServlet.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/dao/registrationdao/RegistrationDAO.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/cellphones.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/index.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/user/User.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/laptops.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/gadget/Gadget.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/client_site.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/update_gadget.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/login.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/dao/gadgetdao/GadgetDAO.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/WEB-INF/web.xml</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/login/Login.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/ClientServlet.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/add_gadget.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/dao/logindao/AdminLoginDAO.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/angular-1.3.15/angular-1.3.15/docs/examples/example-example.csp/protractor.js</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/css/style.css</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/GadgetStockServlet.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/js/angular-messages.js</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/add_gadget.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/LoginServlet.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/index_login.jsp</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/contact/Contact.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/OrderServlet.java</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/web/angular-1.3.15/angular-1.3.15/docs/partials/api/ngMock/type/$rootScope.Scope.html</file>
+            <file>file:/D:/SchoolBag/Semester%201%202015/TPG30BT/Project/GC/GadgetCrunch/src/za/ac/tut/user/client/Client.java</file>
+        </group>
+    </open-files>
+</project-private>

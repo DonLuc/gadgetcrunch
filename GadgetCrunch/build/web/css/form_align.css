@@ -1,0 +1,21 @@
+label
+{
+	text-align: right;
+	width: 5em;
+}
+input
+{
+	float: right;
+	margin-right: 85em;
+	left: 100%;
+	padding: 0pt;
+	margin-top : 2pt;
+}
+button
+{
+	width: 11em;
+	margin-left: 4.72em;
+	margin-botom: 6em;
+	background-color: #0000CC;
+	color: #FFFFFF;
+}
